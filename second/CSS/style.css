@@ -1,27 +1,32 @@
-body {
-    background: lightgrey;
-    font-family: arial, helvetic
+.layout {
+	min-height: 100vh;
 }
-.filter {
-    background-color: white;
-    width: 400px;
-    margin: auto;
-    padding: 5px;
-    box-shadow: 0px 0px 25px grey;
-}
-.categories {
-    display: flex; 
-    justify-content: center;
-    list-style-type: none;
-    gap: 1em 1em;
-    flex-wrap: wrap;
-  }
+header {
+    background-color: rgb(59, 59, 59);
+	position: fixed;
+	width: 100vw;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-left: 1rem;
 
-.tag {
-    background-color: rgb(240, 240, 240);
-    padding: .25em .25em .25em .25em;
-    border-radius: .75em;
-    border: solid;
-    border-color: lightsalmon;
-    border-width: medium;
+}
+
+article {
+	margin: 0;
+}
+
+
+footer {
+    background-color: rgb(59, 59, 59);
+	color: white;
+	position: fixed;
+	bottom: 0;
+    left: 0;
+    right: 0;
+	width: 100vw;
+	text-align: left;
+    padding-left: 1rem;
+	
 }

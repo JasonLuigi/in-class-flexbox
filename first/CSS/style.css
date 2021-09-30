@@ -1,0 +1,27 @@
+body {
+    background: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.filter {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0px 0px 25px grey;
+}
+.categories {
+    display: flex; 
+    justify-content: center;
+    list-style-type: none;
+    gap: 1em 1em;
+    flex-wrap: wrap;
+  }
+
+.tag {
+    background-color: rgb(240, 240, 240);
+    padding: .25em .25em .25em .25em;
+    border-radius: .75em;
+    border: solid;
+    border-color: lightsalmon;
+    border-width: medium;
+}

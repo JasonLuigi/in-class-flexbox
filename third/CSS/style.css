@@ -13,9 +13,12 @@
 
 .logo {
     display: inline;
-    font-size: 3em;
+    font-size: 2.25em;
     background-color: red;
     border-radius: 50%;
+    margin-left: 0.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
     
 
 

@@ -1,27 +1,40 @@
-body {
-    background: lightgrey;
-    font-family: arial, helvetic
-}
-.filter {
-    background-color: white;
-    width: 400px;
-    margin: auto;
-    padding: 5px;
-    box-shadow: 0px 0px 25px grey;
-}
-.categories {
-    display: flex; 
-    justify-content: center;
-    list-style-type: none;
-    gap: 1em 1em;
-    flex-wrap: wrap;
-  }
+.topbar{
 
-.tag {
-    background-color: rgb(240, 240, 240);
-    padding: .25em .25em .25em .25em;
-    border-radius: .75em;
-    border: solid;
-    border-color: lightsalmon;
-    border-width: medium;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.logo {
+    display: inline;
+    font-size: 3em;
+    background-color: red;
+    border-radius: 50%;
+    
+
+
+}
+
+.company {
+    display: inline;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: grey;
+    margin: 1.5em 1.5em 1.5em 0em;
+    width: 2.5rem;
+}
+
+.line {
+    background: black;
+    width: 10px;
 }

@@ -31,13 +31,14 @@
 .btn {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     background: grey;
-    margin: 1.5em 1.5em 1.5em 0em;
-    width: 2.5rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .line {
-    background: black;
-    width: 10px;
+    background: darkblue;
+    width: 2rem;
+    height: 0.5rem;
 }

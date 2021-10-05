@@ -19,9 +19,7 @@
     margin-left: 0.5em;
     margin-top: 0.3em;
     margin-bottom: 0.3em;
-    
-
-
+    padding: 0.5rem;
 }
 
 .company {
@@ -29,9 +27,11 @@
 }
 
 .btn {
+    display: inline;
     background: grey;
     width: 3rem;
     height: 3rem;
+    margin: 1rem;
 }
 
 .line {
@@ -40,7 +40,7 @@
     justify-content: center;
     align-items: center;
     background: darkblue;
-    width: 2rem;
-    height: 0.5rem;
-    margin: 4px;
+    width: 1.5rem;
+    height: 0.375rem;
+    margin: 0.2em;
 }

@@ -29,16 +29,18 @@
 }
 
 .btn {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background: grey;
     width: 3rem;
     height: 3rem;
 }
 
 .line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: darkblue;
     width: 2rem;
     height: 0.5rem;
+    margin: 4px;
 }

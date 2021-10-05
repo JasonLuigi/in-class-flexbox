@@ -1,0 +1,38 @@
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5vh;
+  gap: 20%;
+}
+
+.logo {
+  background-color: red;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  align-self: center;
+  font-size: 2em;
+}
+
+.company {
+  align-self: center;
+}
+
+.btn {
+  background-color: white;
+  display: flex;
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15%;
+  margin: 0.5em 0;
+}
+
+.line {
+  background-color: black;
+  width: 20px;
+  flex-grow: 0.11;
+}
